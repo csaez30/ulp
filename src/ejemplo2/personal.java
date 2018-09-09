@@ -135,6 +135,8 @@ public class personal extends javax.swing.JFrame {
             String sql = "INSERT INTO usuario (nombre, apellido,edad,correo) VALUES ('"+ t_nom.getText()+ "','"+ t_ape.getText()+ "','"+t_edad.getText()+"','"+t_correo.getText()+"')";
             st.executeUpdate(sql);
         } catch (SQLException ex) {
+            
+            //hola ACA TRATANDO DE PROBAR
             Logger.getLogger(personal.class.getName()).log(Level.SEVERE, null, ex);
         }
        
